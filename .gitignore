@@ -1,1 +1,3 @@
 README.md
+.kitchen/
+.kitchen.local.yml
