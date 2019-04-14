@@ -1,0 +1,64 @@
+E, [2019-04-14T05:16:09.228744 #3892] ERROR -- Kitchen: ------Exception-------
+E, [2019-04-14T05:16:09.228838 #3892] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2019-04-14T05:16:09.228859 #3892] ERROR -- Kitchen: Message: Vagrant 1.1.0 or higher is not installed. Please download a package from https://www.vagrantup.com/downloads.html.
+E, [2019-04-14T05:16:09.228873 #3892] ERROR -- Kitchen: ----------------------
+E, [2019-04-14T05:16:09.228887 #3892] ERROR -- Kitchen: ------Backtrace-------
+E, [2019-04-14T05:16:09.228900 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.4.0/lib/kitchen/driver/vagrant.rb:546:in `rescue in vagrant_version'
+E, [2019-04-14T05:16:09.228914 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.4.0/lib/kitchen/driver/vagrant.rb:541:in `vagrant_version'
+E, [2019-04-14T05:16:09.228927 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.4.0/lib/kitchen/driver/vagrant.rb:190:in `verify_dependencies'
+E, [2019-04-14T05:16:09.228940 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/plugin.rb:41:in `load'
+E, [2019-04-14T05:16:09.228960 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/driver.rb:38:in `for_plugin'
+E, [2019-04-14T05:16:09.228972 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:234:in `new_driver'
+E, [2019-04-14T05:16:09.228988 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:247:in `new_instance'
+E, [2019-04-14T05:16:09.229001 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:142:in `block in build_instances'
+E, [2019-04-14T05:16:09.229016 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:141:in `map'
+E, [2019-04-14T05:16:09.229030 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:141:in `with_index'
+E, [2019-04-14T05:16:09.229043 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2019-04-14T05:16:09.229057 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:117:in `instances'
+E, [2019-04-14T05:16:09.229075 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2019-04-14T05:16:09.229088 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2019-04-14T05:16:09.229102 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command/list.rb:30:in `call'
+E, [2019-04-14T05:16:09.229115 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2019-04-14T05:16:09.229128 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/cli.rb:120:in `list'
+E, [2019-04-14T05:16:09.229140 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+E, [2019-04-14T05:16:09.229153 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2019-04-14T05:16:09.229167 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+E, [2019-04-14T05:16:09.229182 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/base.rb:466:in `start'
+E, [2019-04-14T05:16:09.229195 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2019-04-14T05:16:09.229209 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2019-04-14T05:16:09.229223 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/bin/kitchen:13:in `<top (required)>'
+E, [2019-04-14T05:16:09.229235 #3892] ERROR -- Kitchen: /usr/bin/kitchen:306:in `load'
+E, [2019-04-14T05:16:09.229247 #3892] ERROR -- Kitchen: /usr/bin/kitchen:306:in `<main>'
+E, [2019-04-14T05:16:09.229259 #3892] ERROR -- Kitchen: ----End Backtrace-----
+E, [2019-04-14T05:16:09.229271 #3892] ERROR -- Kitchen: ---Nested Exception---
+E, [2019-04-14T05:16:09.229287 #3892] ERROR -- Kitchen: Class: Errno::ENOENT
+E, [2019-04-14T05:16:09.229303 #3892] ERROR -- Kitchen: Message: No such file or directory - vagrant
+E, [2019-04-14T05:16:09.229315 #3892] ERROR -- Kitchen: ----------------------
+E, [2019-04-14T05:16:09.229852 #3892] ERROR -- Kitchen: ------Backtrace-------
+E, [2019-04-14T05:16:09.229867 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.4.0/lib/kitchen/driver/vagrant.rb:546:in `rescue in vagrant_version'
+E, [2019-04-14T05:16:09.229881 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.4.0/lib/kitchen/driver/vagrant.rb:541:in `vagrant_version'
+E, [2019-04-14T05:16:09.229894 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/kitchen-vagrant-1.4.0/lib/kitchen/driver/vagrant.rb:190:in `verify_dependencies'
+E, [2019-04-14T05:16:09.229905 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/plugin.rb:41:in `load'
+E, [2019-04-14T05:16:09.229921 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/driver.rb:38:in `for_plugin'
+E, [2019-04-14T05:16:09.229934 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:234:in `new_driver'
+E, [2019-04-14T05:16:09.229948 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:247:in `new_instance'
+E, [2019-04-14T05:16:09.229960 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:142:in `block in build_instances'
+E, [2019-04-14T05:16:09.229972 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:141:in `map'
+E, [2019-04-14T05:16:09.229985 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:141:in `with_index'
+E, [2019-04-14T05:16:09.229997 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2019-04-14T05:16:09.230010 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/config.rb:117:in `instances'
+E, [2019-04-14T05:16:09.230026 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2019-04-14T05:16:09.230039 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2019-04-14T05:16:09.230053 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/command/list.rb:30:in `call'
+E, [2019-04-14T05:16:09.230065 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2019-04-14T05:16:09.230077 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/cli.rb:120:in `list'
+E, [2019-04-14T05:16:09.230093 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/command.rb:27:in `run'
+E, [2019-04-14T05:16:09.230105 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2019-04-14T05:16:09.230123 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor.rb:387:in `dispatch'
+E, [2019-04-14T05:16:09.230140 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/thor-0.20.3/lib/thor/base.rb:466:in `start'
+E, [2019-04-14T05:16:09.230156 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2019-04-14T05:16:09.230168 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2019-04-14T05:16:09.230181 #3892] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.5.0/gems/test-kitchen-1.24.0/bin/kitchen:13:in `<top (required)>'
+E, [2019-04-14T05:16:09.230193 #3892] ERROR -- Kitchen: /usr/bin/kitchen:306:in `load'
+E, [2019-04-14T05:16:09.230204 #3892] ERROR -- Kitchen: /usr/bin/kitchen:306:in `<main>'
+E, [2019-04-14T05:16:09.230214 #3892] ERROR -- Kitchen: ----End Backtrace-----
