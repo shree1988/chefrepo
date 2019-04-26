@@ -1,0 +1,35 @@
+{
+  "id": "author",
+  "packages": [
+    {
+      "groupId": "com.digitaslbi.helios",
+      "artifactId": "helios-id-aem",
+      "version": "19.05.0.RENAULT",
+      "build_number": "704",
+      "type": "zip"
+    },
+    {
+      "groupId": "com.digitaslbi.helios",
+      "artifactId": "helios-website",
+      "version": "19.05.0.RENAULT",
+      "build_number": "704",
+      "type": "zip"
+    }
+  ],
+  "releases": [
+
+  ],
+  "hotfixes": [
+    {
+      "groupId": "joby.joseph",
+      "artifactId": "AEM-maintenance-tasks-custom-config-nonprod",
+      "version": "0.1.0",
+      "build_number": "none",
+      "type": "zip"
+    }
+  ],
+  "S3": {
+
+  }
+}
+
