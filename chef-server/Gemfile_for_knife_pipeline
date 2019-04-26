@@ -1,0 +1,8 @@
+ruby '2.4.0'
+
+source 'http://rubygems.org'
+
+gem 'chef', '~> 12.19', '>= 12.19.36'
+gem 'knife-push'
+gem 'rest-client'
+gem 'mixlib-authentication', '1.4.2'
